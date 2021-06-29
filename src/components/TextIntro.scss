@@ -1,0 +1,28 @@
+.block-intro {
+    text-align: center;
+    width: 69%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 20px;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+}
+
+.block-intro--text-intro {
+    display: flex;
+    justify-content: space-between;
+
+    & div p {
+        text-align: left;
+        font-size: 18px;
+        margin: 0;
+    }
+}

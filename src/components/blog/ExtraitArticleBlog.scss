@@ -1,0 +1,33 @@
+.extrait-blog {
+	padding: 0 20px;
+	// width: 220px;
+}
+
+.img-extrait-blog {
+	width: auto;
+	height: 207px;
+}
+
+.titre-extrait-blog {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.texte-extrait-blog {
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.button-lire-la-suite {
+	margin-top: 40px;
+	// text-align: center;
+	display: flex;
+	justify-content: center;
+
+	button {
+		font-size: 12px;
+		padding: 17px 22px;
+		display: flex;
+		align-items: center;
+	}
+}

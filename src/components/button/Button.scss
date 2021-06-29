@@ -1,0 +1,20 @@
+.button_custom {
+	background-color: white;
+	color: black;
+	height: 32px;
+	border: solid 1px black;
+	padding: 0 5px;
+	font-size: 15px;
+
+	&:focus {
+		background-color: unset;
+	}
+
+	&:hover {
+		background-color: black;
+		color: white;
+		cursor: pointer;
+		transition: ease-in-out 0.2s;
+		outline: none;
+	}
+}

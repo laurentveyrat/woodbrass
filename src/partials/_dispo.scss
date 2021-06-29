@@ -1,0 +1,13 @@
+.rond-vert {
+	display: inline-block;
+	position: relative;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #00cc66;
+	margin-right: 5px;
+}
+.rond-orange {
+	@extend .rond-vert;
+	background-color: #ff7200;
+}

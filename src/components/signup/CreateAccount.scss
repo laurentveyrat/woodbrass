@@ -1,0 +1,67 @@
+.create-account {
+	.champs-obligatoires {
+		padding-left: 20px;
+		border-left: 4px solid var(--color-primary);
+	}
+
+	.infos-supplementaires--coordonnees {
+		padding-right: 80px;
+	}
+
+	.infos-supplementaires--photo {
+		padding-left: 80px;
+
+		.genre {
+			margin-right: 40px;
+		}
+
+		.date-de-naissance div {
+			margin: 0 10px 0 0;
+			width: 28%;
+		}
+	}
+
+	label {
+		color: black;
+	}
+
+	span {
+		font-size: 12px;
+		font-weight: 600;
+		color: black;
+
+		// margin-left: 10px;
+	}
+
+	.row {
+		margin-bottom: 0;
+
+		.adresse-email {
+			span {
+				margin-left: 11px;
+			}
+		}
+
+		.mot-de-passe,
+		.societe,
+		.adresse,
+		.complement-adresse {
+			margin-left: 11px;
+			padding-right: 27px;
+		}
+	}
+
+	input.validate,
+	select.validate {
+		border-right: 4px solid var(--color-primary);
+	}
+
+	input.validate,
+	select.validate {
+		border-right: 4px solid var(--color-primary);
+	}
+
+	.bouton-creer-compte {
+		margin-top: 50px;
+	}
+}

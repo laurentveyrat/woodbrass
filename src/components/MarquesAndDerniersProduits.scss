@@ -1,0 +1,39 @@
+.marques {
+	margin-top: 70px;
+	display: flex;
+
+	p {
+		font-size: 15px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+.marques--left {
+	width: 50%;
+
+	.grid_marques {
+		display: grid;
+		grid-template-columns: repeat(4, auto);
+		grid-template-rows: repeat(5, 70px);
+		justify-items: center;
+		margin-left: -40px;
+
+		img {
+			cursor: pointer;
+		}
+	}
+}
+
+.marques--right {
+	width: 50%;
+
+	.grid_derniers_produits {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: repeat(4, auto);
+		grid-column-gap: 50px;
+		// justify-items: center;
+		// margin-left: -40px;
+	}
+}

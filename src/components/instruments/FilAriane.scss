@@ -1,0 +1,22 @@
+nav {
+    // color: black;
+    background-color: white;
+    padding-left: 30px;
+}
+
+.fil-ariane {
+    box-shadow: none;
+
+    .breadcrumb {
+        color: black;
+        font-size: 13px;
+        border: 1px solid rgb(230, 230, 230);
+        padding: 5px 10px;
+
+        &:before {
+            margin: 0;
+            font-size: 15px;
+            color: rgba(64, 64, 64, 70%);
+        }
+    }
+}

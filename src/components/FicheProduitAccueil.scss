@@ -1,0 +1,84 @@
+// @import "../partials/dispo";
+
+.card {
+	position: relative;
+	// padding-bottom: 30px;
+	padding: 0 7px 30px 7px;
+	overflow: hidden;
+	box-shadow: none;
+	border-right: 2px solid rgb(235, 235, 235);
+
+	.card-image .card-title {
+		color: black;
+		position: relative;
+		font-size: 16px;
+		font-weight: 700;
+		padding-left: 5px;
+		cursor: pointer;
+	}
+
+	.card-content {
+		padding-top: 0px;
+		padding-left: 5px;
+		cursor: pointer;
+		height: 90px;
+
+		.card-content--categorie {
+			font-size: 12px;
+		}
+	}
+
+	.card-image img {
+		margin: 30px 0px;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.card-action {
+		display: flex;
+		padding: 0 5px 0 5px;
+		justify-content: space-between;
+		border-top: none;
+
+		.card-action--prix {
+			color: var(--color-primary);
+			font-size: 25px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.card-action--prix_conseille,
+		.card-action--right {
+			font-size: 12px;
+			cursor: pointer;
+		}
+
+		.card-action--right {
+			margin-top: 20px;
+		}
+	}
+}
+
+.card--reduction {
+	position: relative;
+	float: right;
+	// top: 0px;
+	z-index: 1;
+	background-color: var(--color-primary);
+	width: 30%;
+	height: 20px;
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
+
+	&.nonVisible {
+		visibility: hidden;
+	}
+}
+
+.card-action--stock_online,
+.card-action--stock_paris {
+	// @import "../partials/dispo";
+	// .rond-vert
+	// .rond-orange
+}

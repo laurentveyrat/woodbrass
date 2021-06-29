@@ -1,0 +1,28 @@
+.banniere-logo {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: -5px;
+
+	.fleche-gauche {
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	.fleche-droite {
+		margin-left: 10px;
+		cursor: pointer;
+	}
+
+	img {
+		width: 9%;
+		height: 100%;
+		padding: 0 10px;
+		cursor: pointer;
+		border-top: solid 5px transparent;
+
+		&.active {
+			border-top: solid 5px var(--color-primary);
+		}
+	}
+}

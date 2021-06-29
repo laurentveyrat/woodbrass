@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="60px" viewBox="0 0 53 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>carton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0266CB" offset="4.88394147%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="propo-1---home-copy" transform="translate(-508.000000, -956.000000)" fill="url(#linearGradient-1)">
+            <g id="carton" transform="translate(508.000000, 956.000000)">
+                <polygon id="Fill-1" points="0 45.1227541 25.7676639 59.9998033 25.7677869 59.9998033 25.7677869 30.2458279 0 15.3687787"></polygon>
+                <polygon id="Fill-2" points="41.5935 21.4637828 41.6242377 25.2489467 41.0996066 25.4701352 40.6139508 26.4414467 40.1222705 26.3799713 39.7312869 26.8875123 39.1386639 26.7180861 38.8974344 27.2713648 38.3394836 27.0562008 38.1264098 27.5914057 37.4512869 27.3898893 37.355877 27.978332 36.9870246 27.9475943 36.7103852 28.5623484 36.6351393 28.2014877 36.2072705 28.5623484 36.2072705 24.5735779 26.3823934 30.2459139 26.3823934 59.9996434 52.1503033 45.1225943 52.1503033 15.3687418"></polygon>
+                <polygon id="Fill-3" points="10.1573975 9.1544877 0.245963115 14.8769877 26.01375 29.7540369 36.2072336 23.86875 10.4394467 8.99170082"></polygon>
+                <polygon id="Fill-4" points="26.013418 0 15.8200574 5.88516393 41.5877213 20.7623361 51.7813279 14.8770492 26.0137869 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

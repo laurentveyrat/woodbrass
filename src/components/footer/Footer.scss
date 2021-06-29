@@ -1,0 +1,93 @@
+footer {
+	background-color: black;
+	height: 700px;
+	color: white;
+
+	span {
+		font-size: 12px;
+	}
+}
+
+.premiere-ligne-footer,
+.deuxieme-ligne-footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+
+	p {
+		font-weight: 500;
+		font-size: 12px;
+	}
+}
+
+.deuxieme-ligne-footer {
+	padding-top: 0px;
+
+	& > div {
+		width: 24%;
+	}
+}
+
+.leftFlex,
+.rightFlex {
+	// display: inline-block;
+	width: 45%;
+	margin-right: 50px;
+}
+
+// .email-offres-exclusives input {
+//     color: white;
+// }
+
+#email {
+	color: grey;
+	background-color: white;
+	left: 20px;
+}
+
+.button-email-go {
+	margin-top: 15px;
+	background-color: var(--color-primary);
+	color: white;
+	height: 47px;
+	border: none;
+	cursor: pointer;
+}
+
+.icons-social-media {
+	margin-top: 20px;
+
+	span {
+		width: 50px;
+		margin: 0 5px;
+		font-size: 40px;
+		// padding: 0 5px;
+	}
+
+	.button-blog {
+		height: 50px;
+		background-color: var(--color-primary);
+		color: white;
+		font-weight: bold;
+		border: none;
+		margin-right: 10px;
+
+		&:hover {
+			background-color: black;
+			transition: 0.1s;
+			cursor: pointer;
+		}
+	}
+
+	img {
+		height: 30px;
+		width: auto;
+		cursor: pointer;
+		margin: 0 auto;
+	}
+}
+
+.colorBlue {
+	// color: var(--color-primary);
+	color: #0099ff;
+}

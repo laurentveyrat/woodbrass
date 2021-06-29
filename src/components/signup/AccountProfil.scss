@@ -1,0 +1,136 @@
+.nav-categories {
+	background-color: #004890;
+	height: 400px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.nav-categories--content {
+		width: 80%;
+
+		div:first-child {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.photo-profil {
+			background-color: black;
+			width: 150px;
+			height: 150px;
+			margin-right: 60px;
+		}
+
+		.text-modify-profil {
+			h4,
+			p {
+				margin: 0;
+			}
+
+			h4 {
+				margin-bottom: 50px;
+			}
+		}
+
+		button {
+			border-radius: 0;
+			background-color: transparent;
+		}
+
+		@mixin button-deconnexion {
+			background-color: none;
+			color: white;
+			font-weight: 500;
+			border: 1px solid white;
+
+			&:hover {
+				background-color: white;
+				color: var(--color-primary);
+			}
+		}
+
+		.button-modifier-profil-deconnexion {
+			display: flex;
+
+			button.modifier-profil {
+				background-color: white;
+				color: var(--color-primary);
+				font-weight: 500;
+				margin-right: 20px;
+			}
+
+			button.deconnexion {
+				display: flex;
+				align-items: center;
+				@include button-deconnexion;
+			}
+		}
+
+		.nav-categories--content--grid {
+			margin-top: 40px;
+
+			button {
+				@include button-deconnexion;
+				width: 90%;
+			}
+		}
+	}
+}
+
+.infos-supplementaires {
+	margin: 20px auto 50px auto;
+
+	p {
+		font-size: 18px;
+		font-weight: 900;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="password"],
+	select {
+		border: 1px solid #dbdbdb;
+		// background-color: black;
+	}
+
+	.infos-supplementaires--coordonnees {
+		padding-right: 20px;
+
+		.deux-colonnes {
+			div {
+				padding: 0 10px;
+			}
+		}
+
+		.instruments-checkbox {
+			.row {
+				margin: 0;
+			}
+		}
+
+		input[type="email"],
+		input[type="tel"] {
+			width: 95%;
+			margin-left: 10px;
+		}
+	}
+
+	.infos-supplementaires--photo {
+		padding-left: 20px;
+
+		.carre-noir {
+			// background-color: black;
+			border: 1px solid black;
+			width: 100%;
+			height: 300px;
+		}
+
+		.adresse {
+			.carre-noir {
+				height: 150px;
+			}
+		}
+	}
+}
