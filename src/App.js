@@ -29,6 +29,9 @@ import InstrumentsList from './components/instruments/InstrumentsList'
 import { AuthProvider } from "./context/AuthContext";
 import ChatbotButton from "./components/button/ChatbotButton";
 
+
+// https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
 function App() {
   return (
     <BrowserRouter>
