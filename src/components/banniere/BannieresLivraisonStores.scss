@@ -1,0 +1,95 @@
+.banniere_stores {
+	background: url("../../assets/img/livraisons/img_store_home.jpg");
+	background-size: cover;
+	color: white;
+	height: 300px;
+
+	.row {
+		height: 100%;
+
+		div {
+			padding: 0 30px;
+		}
+
+		.titre {
+			font-size: 40px;
+			font-weight: 700;
+			height: fit-content;
+			position: relative;
+
+			&::after {
+				display: block;
+				position: absolute;
+				bottom: 7px;
+				left: 35px;
+				content: "";
+				background-color: var(--color-primary);
+				width: 75%;
+				height: 3px;
+			}
+		}
+
+		.titre--orange::after {
+			background-color: #ff9800;
+		}
+
+		.sous-titre {
+			font-size: 30px;
+		}
+
+		.content {
+			margin-bottom: 30px;
+		}
+
+		.en_savoir_plus {
+			background-color: black;
+			color: white;
+			height: 32px;
+			border: solid 1px white;
+			padding: 0 5px;
+			font-size: 15px;
+
+			&:hover {
+				background-color: white;
+				color: black;
+				cursor: pointer;
+				transition: ease-in-out 0.1s;
+			}
+		}
+	}
+}
+
+.banniere_stores--premiereCol {
+	font-size: 20px;
+}
+
+.banniere_stores--quatriemeCol .sous-titre {
+	font-size: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+	.banniere_stores {
+		height: 250px;
+
+		.banniere_stores--premiereCol {
+			font-size: 19px;
+			line-height: 23px;
+			padding-left: 40px !important;
+		}
+
+		.row {
+			div {
+				padding: 0 7px;
+			}
+
+			.titre {
+				font-size: 30px;
+			}
+
+			.en_savoir_plus {
+				height: 22px;
+				font-size: 13px;
+			}
+		}
+	}
+}

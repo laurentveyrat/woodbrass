@@ -67,3 +67,26 @@
 		padding-left: 5px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.top {
+		font-size: 11px;
+		height: 33px;
+	}
+
+	.top--left,
+	.top--right--conseils {
+		visibility: hidden;
+	}
+
+	.valign-wrapper.languages {
+		margin-right: 10px;
+		img {
+			height: 1.7em;
+		}
+	}
+
+	.material-icons {
+		font-size: 1.7em;
+	}
+}

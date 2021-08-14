@@ -1,28 +1,56 @@
 .block-intro {
-    text-align: center;
-    width: 69%;
-    margin: 0 auto;
+	text-align: center;
+	width: 69%;
+	margin: 0 auto;
 
-    h1 {
-        font-size: 20px;
-        margin-top: 50px;
-        font-weight: bold;
-    }
+	h1 {
+		font-size: 20px;
+		margin-top: 50px;
+		font-weight: bold;
+	}
 
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-
-    }
+	h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
 }
 
 .block-intro--text-intro {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 
-    & div p {
-        text-align: left;
-        font-size: 18px;
-        margin: 0;
-    }
+	& div p {
+		text-align: left;
+		font-size: 18px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.block-intro {
+		text-align: center;
+		width: 92%;
+		margin: 0 auto;
+
+		h1,
+		h2 {
+			font-size: 16px;
+		}
+	}
+
+	.block-intro--text-intro {
+		display: flex;
+		justify-content: center;
+		// width: 82%;
+
+		& div {
+			width: 38vw;
+
+			p {
+				text-align: left;
+				font-size: 15px;
+				margin: 0;
+			}
+		}
+	}
 }

@@ -14,17 +14,15 @@
 }
 
 .menuSticky--searchBar {
-	// background-color: white;
 	width: 580px;
-	// height: 45px;
-	border-radius: 3px;
 
 	form {
 		width: 100%;
-		// height: 45px;
 
 		.input-field input[type="search"] {
 			background-color: white;
+			border-radius: 3px;
+			// height: 45px;
 		}
 
 		.bouton-rechercher {
@@ -32,10 +30,6 @@
 			position: absolute;
 			right: 10px;
 			top: 17%;
-
-			// span {
-
-			// }
 
 			.btn {
 				background-color: var(--color-primary);
@@ -69,15 +63,10 @@
 
 	span {
 		cursor: pointer;
+		font-weight: bold;
+		font-size: 13px;
+		position: relative;
 	}
-}
-
-.menuSticky--nouveau,
-.menuSticky--destockage,
-.menuSticky--reconditionne {
-	font-weight: bold;
-	font-size: 13px;
-	position: relative;
 }
 
 .menuSticky--nouveau::after {
@@ -149,4 +138,52 @@
 
 .rajoutMarginBanniere {
 	padding-top: 340px;
+}
+
+// ************************  RESPONSIVE  *****************************
+
+@media screen and (max-width: 768px) {
+	.menuSticky {
+		height: 60px;
+		padding: 0 0 0 15px;
+	}
+
+	.logo-woodbrass {
+		height: 30px;
+	}
+
+	.menuSticky--searchBar {
+		width: 380px;
+
+		form {
+			width: 90%;
+			margin: 0 auto;
+
+			.input-field input[type="search"] {
+				height: 35px;
+				font-size: 13px;
+			}
+		}
+	}
+
+	.menuSticky--newDestockRecon {
+		width: 320px;
+
+		span {
+			font-size: 10px;
+		}
+	}
+
+	.menuSticky--comptePanier {
+		font-size: 8px;
+		width: 250px;
+
+		.material-icons {
+			font-size: 20px;
+		}
+
+		div {
+			padding: 15px 5px;
+		}
+	}
 }

@@ -28,3 +28,9 @@
 	cursor: pointer;
 	transition: 0.2s;
 }
+
+@media screen and (max-width: 768px) {
+	.categoriesNav--categorie {
+		font-size: 10px;
+	}
+}

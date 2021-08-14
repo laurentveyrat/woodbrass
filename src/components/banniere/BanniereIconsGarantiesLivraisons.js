@@ -1,11 +1,11 @@
 import React from 'react';
 import './BanniereIconsGarantiesLivraisons.scss';
 
-import logo1 from "../assets/img/banniere-livraison/3-ans.svg"
-import logo2 from "../assets/img/banniere-livraison/livre.svg"
-import logo3 from "../assets/img/banniere-livraison/envoi.svg"
-import logo4 from "../assets/img/banniere-livraison/tel.svg"
-import logo5 from "../assets/img/banniere-livraison/credit-card.svg"
+import logo1 from "../../assets/img/banniere-livraison/3-ans.svg"
+import logo2 from "../../assets/img/banniere-livraison/livre.svg"
+import logo3 from "../../assets/img/banniere-livraison/envoi.svg"
+import logo4 from "../../assets/img/banniere-livraison/tel.svg"
+import logo5 from "../../assets/img/banniere-livraison/credit-card.svg"
 
 
 const BanniereIconsGarantiesLivraisons = () => {

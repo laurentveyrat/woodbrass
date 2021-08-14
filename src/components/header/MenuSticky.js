@@ -54,7 +54,9 @@ const MenuSticky = () => {
                     <ConnexionCompte handleClickBanniereCompte={handleClickBanniereCompte}/>
                 </div>
                 <div className="menuSticky">
-                    <Link to="/"><img src={logoWoodbrass} alt="france flag" /></Link>
+                    <Link to="/">
+                        <img className="logo-woodbrass" src={logoWoodbrass} alt="france flag" />
+                    </Link>
                     <div className="menuSticky--searchBar valign-wrapper">
                         <form>
                             <div className="input-field ">
@@ -64,10 +66,11 @@ const MenuSticky = () => {
                                 </label>
                                 {/* <i class="material-icons">close</i> */}
                                 <span className="bouton-rechercher">
-                                    <button className="btn">
+                                    <button className="btn hide-on-med-and-down">
                                         <span className="material-icons">search</span>
                                         <span>RECHERCHER</span> 
                                     </button>
+                                    <span className="material-icons black-text hide-on-large-only show-on-medium-and-down">search</span>
                                 </span>
                             </div>
                         </form>
