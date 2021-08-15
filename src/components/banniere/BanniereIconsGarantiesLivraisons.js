@@ -47,9 +47,6 @@ const BanniereIconsGarantiesLivraisons = () => {
                         <span className="banniereGarantiesLivraisons--sousTitre"> par CB</span>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     );

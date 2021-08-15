@@ -4,7 +4,7 @@ import './BanniereBlackAvantFooter.scss';
 
 const BanniereBlackAvantFooter = () => {
     return (
-        <div className="">
+        <div className="hide-on-med-and-down">
             <div className="banniereGarantiesLivraisons banniereBlackAvantFooter">
                 <div className="valign-wrapper">
                     <span className="material-icons">search</span>

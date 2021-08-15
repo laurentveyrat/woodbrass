@@ -12,10 +12,11 @@
 
 @media screen and (max-width: 768px) {
 	.banniere_livraison {
-		height: 85px;
-
-		h2 {
-			font-size: 20px;
+		div {
+			h2 {
+				font-size: 19px;
+				// line-height: 30px;
+			}
 		}
 	}
 }

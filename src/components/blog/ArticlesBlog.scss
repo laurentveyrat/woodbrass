@@ -10,3 +10,12 @@
 	margin-bottom: 80px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+	.extraits-article-blog {
+		flex-wrap: wrap;
+		width: 100vw;
+		justify-content: left;
+		margin-bottom: 40px;
+	}
+}

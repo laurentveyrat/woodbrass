@@ -26,3 +26,11 @@
 .banniereGarantiesLivraisons--sousTitre {
 	font-size: 12px;
 }
+
+@media screen and (max-width: 768px) {
+	.banniereGarantiesLivraisons {
+		img {
+			height: 30px;
+		}
+	}
+}

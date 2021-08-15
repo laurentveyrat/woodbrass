@@ -37,3 +37,21 @@
 		// margin-left: -40px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.marques {
+		margin-top: 0px;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		p {
+			margin-bottom: 30px;
+		}
+	}
+
+	.marques--left,
+	.marques--right {
+		width: 90%;
+		margin-top: 40px;
+	}
+}

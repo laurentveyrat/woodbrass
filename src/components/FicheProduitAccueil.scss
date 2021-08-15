@@ -82,3 +82,13 @@
 	// .rond-vert
 	// .rond-orange
 }
+
+@media screen and (max-width: 768px) {
+	.card-content--modele {
+		font-size: 14px;
+	}
+
+	.card .card-action .card-action--prix {
+		font-size: 22px;
+	}
+}
