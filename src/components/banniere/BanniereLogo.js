@@ -40,20 +40,36 @@ const BanniereLogo = (props) => {
 
 
     return (
-        <div className="banniere-logo valign-wrapper">
-            <span className="material-icons fleche-gauche" onClick={() => changeBanniere("gauche")}>arrow_back_ios</span>
-            <img src={logo0} id="logo0" className={numImgActive === 0 && "active"} alt="logo0" onClick={(e) => clickImage(e)} />
-            <img src={logo1} id="logo1" className={numImgActive === 1 && "active"} alt="logo1" onClick={(e) => clickImage(e)} />
-            <img src={logo2} id="logo2" className={numImgActive === 2 && "active"} alt="logo2" onClick={(e) => clickImage(e)} />
-            <img src={logo3} id="logo3" className={numImgActive === 3 && "active"} alt="logo3" onClick={(e) => clickImage(e)} />
-            <img src={logo4} id="logo4" className={numImgActive === 4 && "active"} alt="logo4" onClick={(e) => clickImage(e)} />
-            <img src={logo5} id="logo5" className={numImgActive === 5 && "active"} alt="logo5" onClick={(e) => clickImage(e)} />
-            <img src={logo6} id="logo6" className={numImgActive === 6 && "active"} alt="logo6" onClick={(e) => clickImage(e)} />
-            <img src={logo7} id="logo7" className={numImgActive === 7 && "active"} alt="logo7" onClick={(e) => clickImage(e)} />
-            <img src={logo8} id="logo8" className={numImgActive === 8 && "active"} alt="logo8" onClick={(e) => clickImage(e)} />
-            <img src={logo9} id="logo9" className={numImgActive === 9 && "active"} alt="logo9" onClick={(e) => clickImage(e)} />
-            <span className="material-icons fleche-droite" onClick={() => changeBanniere("droite")}>arrow_forward_ios</span>
-        </div>
+        <>
+            <div className="banniere-logo valign-wrapper hide-on-small-only">
+                <span className="material-icons fleche-gauche" onClick={() => changeBanniere("gauche")}>arrow_back_ios</span>
+                <img src={logo0} id="logo0" className={numImgActive === 0 && "active"} alt="logo0" onClick={(e) => clickImage(e)} />
+                <img src={logo1} id="logo1" className={numImgActive === 1 && "active"} alt="logo1" onClick={(e) => clickImage(e)} />
+                <img src={logo2} id="logo2" className={numImgActive === 2 && "active"} alt="logo2" onClick={(e) => clickImage(e)} />
+                <img src={logo3} id="logo3" className={numImgActive === 3 && "active"} alt="logo3" onClick={(e) => clickImage(e)} />
+                <img src={logo4} id="logo4" className={numImgActive === 4 && "active"} alt="logo4" onClick={(e) => clickImage(e)} />
+                <img src={logo5} id="logo5" className={numImgActive === 5 && "active"} alt="logo5" onClick={(e) => clickImage(e)} />
+                <img src={logo6} id="logo6" className={numImgActive === 6 && "active"} alt="logo6" onClick={(e) => clickImage(e)} />
+                <img src={logo7} id="logo7" className={numImgActive === 7 && "active"} alt="logo7" onClick={(e) => clickImage(e)} />
+                <img src={logo8} id="logo8" className={numImgActive === 8 && "active"} alt="logo8" onClick={(e) => clickImage(e)} />
+                <img src={logo9} id="logo9" className={numImgActive === 9 && "active"} alt="logo9" onClick={(e) => clickImage(e)} />
+                <span className="material-icons fleche-droite" onClick={() => changeBanniere("droite")}>arrow_forward_ios</span>
+            </div>
+            <div className="show-on-small defilement">
+                <ul>
+                    <li id="logo0" alt="defilement0" className={numImgActive === 0 && "active"} onClick={clickImage}></li>
+                    <li id="logo1" alt="defilement1" className={numImgActive === 1 && "active"} onClick={clickImage}></li>
+                    <li id="logo2" alt="defilement2" className={numImgActive === 2 && "active"} onClick={clickImage}></li>
+                    <li id="logo3" alt="defilement3" className={numImgActive === 3 && "active"} onClick={clickImage}></li>
+                    <li id="logo4" alt="defilement4" className={numImgActive === 4 && "active"} onClick={clickImage}></li>
+                    <li id="logo5" alt="defilement5" className={numImgActive === 5 && "active"} onClick={clickImage}></li>
+                    <li id="logo6" alt="defilement6" className={numImgActive === 6 && "active"} onClick={clickImage}></li>
+                    <li id="logo7" alt="defilement7" className={numImgActive === 7 && "active"} onClick={clickImage}></li>
+                    <li id="logo8" alt="defilement8" className={numImgActive === 8 && "active"} onClick={clickImage}></li>
+                    <li id="logo9" alt="defilement9" className={numImgActive === 9 && "active"} onClick={clickImage}></li>
+                </ul>
+            </div>
+        </>
     );
 };
 

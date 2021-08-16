@@ -30,13 +30,36 @@
 		font-size: 12px;
 	}
 
-	.meilleurs-ventes-produits {
-		& > * {
-			width: 33%;
-		}
-	}
-
 	.container {
 		width: 95%;
+
+		.meilleurs-ventes-produits {
+			& > * {
+				width: 33%;
+			}
+		}
 	}
+}
+
+@media screen and (max-width: 480px) {
+	// https://www.journaldunet.fr/web-tech/developpement/1202721-comment-masquer-une-barre-de-defilement-sans-empecher-de-scroller/
+	// .container-parent {
+	// 	z-index: 10;
+	// 	overflow: hidden;
+	// 	background-color: green;
+	// 	margin-top: 100px;
+	// 	// padding-bottom: 25px;
+
+	// 	.meilleurs-ventes-produits {
+	// 		// display: flex;
+	// 		// justify-content: left;
+	// 		flex-wrap: nowrap;
+	// 		overflow: scroll;
+	// 		// overflow-x: hidden;
+
+	// 		& > * {
+	// 			width: 50% !important;
+	// 		}
+	// 	}
+	// }
 }

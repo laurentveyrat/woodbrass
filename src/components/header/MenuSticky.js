@@ -96,7 +96,7 @@ const MenuSticky = () => {
                     </div>
                 </div>
             </div>
-            <div className="categories-nav">
+            <div className="categories-nav hide-on-small-only">
                 <CategoriesNav />
             </div>
         </>

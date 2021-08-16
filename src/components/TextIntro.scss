@@ -54,3 +54,28 @@
 		}
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.block-intro {
+		// background-color: #f5f5f5;
+
+		h1 {
+			font-size: 18px;
+		}
+	}
+
+	.block-intro--text-intro {
+		display: inline;
+		// justify-content: center;
+		// width: 100%;
+
+		& div {
+			width: 100vw;
+
+			p {
+				font-size: 18px;
+				font-weight: 600;
+			}
+		}
+	}
+}

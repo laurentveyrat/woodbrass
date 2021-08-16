@@ -26,3 +26,25 @@
 		}
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.defilement {
+		ul {
+			display: flex;
+			justify-content: center;
+
+			li {
+				width: 8px;
+				height: 8px;
+				background-color: lightgray;
+				border-radius: 50%;
+				margin: 0 5px;
+
+				&.active {
+					background-color: black;
+					transition: 0.2s;
+				}
+			}
+		}
+	}
+}

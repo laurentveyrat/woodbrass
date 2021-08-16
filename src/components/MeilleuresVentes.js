@@ -28,7 +28,7 @@ const MeilleuresVentes = () => {
     return (
         <div>
             <h2 className="titre-meilleures-ventes">DÉCOUVREZ ICI LES MEILLEURES VENTES PAR UNIVERS !</h2>
-            <div className="container">
+            <div className="container container-parent">
                 <div className="row meilleurs-ventes-produits">
                     {instrumentsList}
                 </div>

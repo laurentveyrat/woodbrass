@@ -5,7 +5,7 @@ const TextIntro = () => {
     return (
         <div className="block-intro">
             <h1>Bienvenue sur Woodbrass, le site pour les musiciens fait par des musiciens !</h1>
-            <h2>Profitez du choix du N°1 Français avec 1400 marques et 400 000 articles en stock au meilleur prix !</h2>
+            <h2 className="hide-on-small-only">Profitez du choix du N°1 Français avec 1400 marques et 400 000 articles en stock au meilleur prix !</h2>
             <div className="block-intro--text-intro">
                 <div className="block-intro--text-intro--left">
                     <p>Entreprise 100% Française : stock et sav en France</p>
