@@ -187,3 +187,67 @@
 		}
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.menuSticky {
+		height: auto;
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+
+		.logo-woodbrass {
+			height: 45px;
+		}
+
+		.material-icons {
+			padding-right: 5px;
+			font-size: 30px;
+		}
+	}
+
+	.menuSticky--searchBar {
+		width: 100vw;
+		order: 3;
+	}
+
+	.btn-mobile-menu {
+		order: 0;
+		display: inline-block;
+		background-color: #202020;
+		width: 100px;
+		height: 50px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.menuSticky--logo-woodbrass {
+		order: 1;
+	}
+	.menuSticky--comptePanier {
+		order: 2;
+		justify-content: space-around;
+		width: auto;
+		margin-right: 20px;
+	}
+	.menuSticky--newDestockRecon {
+		order: 4;
+	}
+
+	.menuSticky--searchBar {
+		form {
+			width: 95%;
+
+			.input-field input[type="search"] {
+				height: 45px;
+			}
+		}
+	}
+
+	.menuSticky--newDestockRecon {
+		width: 100%;
+		justify-content: space-around;
+
+		span {
+			font-size: 16px;
+		}
+	}
+}

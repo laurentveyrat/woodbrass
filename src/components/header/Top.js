@@ -26,7 +26,7 @@ const Top = () => {
 
     return (
         <div className="top">
-            <div className="top--left">
+            <div className="top--left hide-on-small-only">
                 <span>BLOG</span>
                 <span>GUIDES D'ACHAT</span>
                 <span>MAGASINS</span>
@@ -39,7 +39,7 @@ const Top = () => {
                 </span>
                 <span className="material-icons" onClick={handleClickChevronRight}>chevron_right</span>
             </div>
-            <div className="top--right">
+            <div className="top--right hide-on-small-only">
                 <span className="top--right--conseils">CONSEILS :<strong className="number">02 61 88 01 40</strong></span>
                 <span className="valign-wrapper languages">
                     <img src={franceFlag} alt="france flag" /><strong>FR</strong>

@@ -54,7 +54,8 @@ const MenuSticky = () => {
                     <ConnexionCompte handleClickBanniereCompte={handleClickBanniereCompte}/>
                 </div>
                 <div className="menuSticky">
-                    <Link to="/">
+                    <button className="btn btn-mobile-menu hide-on-med-and-up">MENU</button>
+                    <Link to="/" className="menuSticky--logo-woodbrass">
                         <img className="logo-woodbrass" src={logoWoodbrass} alt="france flag" />
                     </Link>
                     <div className="menuSticky--searchBar valign-wrapper">
@@ -81,16 +82,16 @@ const MenuSticky = () => {
                         <span className="menuSticky--reconditionne">RECONDITIONNÉ</span>
                     </div>
                     <div className="menuSticky--comptePanier">
-                        <div className="menuSticky--comptePanier--aPropos">
+                        <div className="menuSticky--comptePanier--aPropos hide-on-small-only">
                             <span className="material-icons">info_outline</span>
                                     A PROPOS
                         </div>
                         <div className="menuSticky--comptePanier--compte" onClick={handleClickBanniereCompte}>
-                                <span className="material-icons">account_circle</span>COMPTE
+                                <span className="material-icons">account_circle</span><span className="hide-on-small-only">COMPTE</span> 
                         </div>
                         <div className="menuSticky--comptePanier--panier">
                             <span className="material-icons">shopping_basket</span>
-                            PANIER
+                            <span className="hide-on-small-only">PANIER</span>
                         </div>
                     </div>
                 </div>
