@@ -16,6 +16,7 @@
 			font-weight: 700;
 			height: fit-content;
 			position: relative;
+			letter-spacing: -2px;
 
 			&::after {
 				display: block;
@@ -91,5 +92,45 @@
 				font-size: 13px;
 			}
 		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.banniere_stores {
+		height: auto;
+		overflow-x: scroll;
+		overflow-y: unset;
+
+		.row {
+			height: 100%;
+
+			.titre {
+				font-size: 35px;
+			}
+
+			div {
+				margin: 0 30px;
+				padding: 0;
+			}
+
+			.en_savoir_plus {
+				height: 42px;
+				padding: 0 20px;
+				font-size: 11px;
+				font-weight: bold;
+				background-color: transparent;
+			}
+
+			.content {
+				margin: 10px 0 30px 0;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.banniere_stores--deuxiemeCol,
+	.banniere_stores--troisiemeCol,
+	.banniere_stores--quatriemeCol {
+		width: 50% !important;
 	}
 }

@@ -70,12 +70,14 @@ function Home() {
       <TextIntro />
       <MeilleuresVentes />
 
-      <BanniereBleu texte={<h2>Livraison <b>gratuite</b> dès <b>49€</b> d'achat en France Métropolitaine.</h2>} />
+      <BanniereBleu />
       <BannieresLivraisonStores />
       <MarquesAndDerniersProduits />
       <BanniereIconsGarantiesLivraisons />
       <ArticlesBlog />
-      <BanniereBleu texte={<h2><b>SATISFAIT OU REMBOURSÉ !</b> VOUS AVEZ 30 JOURS POUR RETOURNER VOTRE COMMANDE.</h2>} />
+      <div className="hide-on-small-only">
+        <BanniereBleu texte={<h2><b>SATISFAIT OU REMBOURSÉ !</b> VOUS AVEZ 30 JOURS POUR RETOURNER VOTRE COMMANDE.</h2>} />
+      </div>
       <BanniereBlackAvantFooter />
       <Footer />
     </>

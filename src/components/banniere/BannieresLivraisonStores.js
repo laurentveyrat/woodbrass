@@ -6,7 +6,7 @@ const BannieresLivraisonStores = () => {
         <>
             <div className="banniere_stores">
                 <div className="row valign-wrapper">
-                    <div className="banniere_stores--premiereCol col s3 ">
+                    <div className="banniere_stores--premiereCol col s3 hide-on-small-only">
                         Venez nous rendre visite ! Woodbrass vous propose le plus grand espace musical de Paris.
                     </div>
                     <div className="banniere_stores--deuxiemeCol col s3 center-align">
