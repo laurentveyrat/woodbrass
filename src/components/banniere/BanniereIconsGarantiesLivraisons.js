@@ -20,28 +20,28 @@ const BanniereIconsGarantiesLivraisons = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={logo2} alt="garantie 3 ans" />
+                    <img src={logo2} alt="camion de livraison" />
                     <div className="banniereGarantiesLivraisons--texte_droite">
                         <span className="banniereGarantiesLivraisons--garantie">LIVRAISON GRATUITE</span><br />
                         <span className="banniereGarantiesLivraisons--sousTitre">dès 49€</span>
                     </div>
                 </div>
                 <div>
-                    <img src={logo3} alt="garantie 3 ans" />
+                    <img src={logo3} alt="colis livraison" />
                     <div className="banniereGarantiesLivraisons--texte_droite">
                         <span className="banniereGarantiesLivraisons--garantie">LIVRES EN 24/48H</span><br />
                         <span className="banniereGarantiesLivraisons--sousTitre">avec Chronopost</span>
                     </div>
                 </div>
                 <div>
-                    <img src={logo4} alt="garantie 3 ans" />
+                    <img src={logo4} alt="téléphone" />
                     <div className="banniereGarantiesLivraisons--texte_droite">
-                        <span className="banniereGarantiesLivraisons--garantie">UNE QUESTION ?<br /> UN CONSEIL ?</span><br />
+                        <span className="banniereGarantiesLivraisons--garantie">UNE QUESTION ?<span className="hide-on-small-only"><br /></span> UN CONSEIL ?</span><br />
                         <span className="banniereGarantiesLivraisons--sousTitre">02 61 88 01 40</span>
                     </div>
                 </div>
                 <div>
-                    <img src={logo5} alt="garantie 3 ans" />
+                    <img src={logo5} alt="carte bancaire" />
                     <div className="banniereGarantiesLivraisons--texte_droite">
                         <span className="banniereGarantiesLivraisons--garantie">3x SANS FRAIS</span>
                         <span className="banniereGarantiesLivraisons--sousTitre"> par CB</span>

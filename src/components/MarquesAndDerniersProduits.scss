@@ -55,3 +55,23 @@
 		margin-top: 40px;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.marques {
+		p {
+			font-size: 17px;
+		}
+	}
+
+	.marques--left {
+		.grid_marques {
+			margin-left: -10px;
+		}
+	}
+
+	.marques--right {
+		.grid_derniers_produits {
+			grid-column-gap: 0px;
+		}
+	}
+}
