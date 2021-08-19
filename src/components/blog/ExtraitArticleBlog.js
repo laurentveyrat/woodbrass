@@ -36,7 +36,7 @@ const ExtraitArticleBlog = (props) => {
             {/* <img className="img-extrait-blog" src={imgSrc} alt="article blog" /> */}
             {imgSrc}
             <span className="titre-extrait-blog">{props.titre || "WALL OF DEATH, SATAN, MAD FOXES..."}</span>
-            <div className="texte-extrait-blog">
+            <div className="texte-extrait-blog hide-on-small-only">
                 {props.description || "La France sort ses riffs. Longtemps tapies dans l’ombre des formations anglophones, de jeunes pousses fortement inspirées commencent à se faire entendre au-delà des frontières nationales et se mettent à rêver de desseins outre-Atlantique. Une résonance accrue par le travail acharné de labels passionnés (...)"}
             </div>
             <div className="button-lire-la-suite">

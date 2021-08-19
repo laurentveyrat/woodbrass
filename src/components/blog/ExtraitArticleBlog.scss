@@ -38,3 +38,18 @@
 		width: 33%;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.extrait-blog {
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.button-lire-la-suite {
+		margin-top: 20px;
+
+		button {
+			padding: 5px 25px;
+		}
+	}
+}

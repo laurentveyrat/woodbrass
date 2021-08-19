@@ -91,3 +91,13 @@ footer {
 	// color: var(--color-primary);
 	color: #0099ff;
 }
+
+@media screen and (max-width: 480px) {
+	.leftFlex {
+		display: none;
+	}
+
+	.rightFlex {
+		width: 100%;
+	}
+}
