@@ -99,5 +99,28 @@ footer {
 
 	.rightFlex {
 		width: 100%;
+		margin-right: 0px;
+
+		p {
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
+
+	.deuxieme-ligne-footer {
+		// padding-top: 0px;
+		flex-wrap: wrap;
+
+		& > div {
+			width: 50%;
+		}
+	}
+
+	.icons-social-media {
+		justify-content: space-between;
+
+		img {
+			height: 32px;
+		}
 	}
 }
